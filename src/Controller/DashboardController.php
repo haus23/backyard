@@ -13,9 +13,6 @@ class DashboardController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->json([
-            'message' => 'Welcome to your new controller!',
-            'path' => 'src/Controller/DashboardController.php',
-        ]);
+        return $this->render('dashboard.html.twig');
     }
 }
