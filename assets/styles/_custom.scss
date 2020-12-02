@@ -3,6 +3,7 @@
 // Overwrite utilities
 $utilities: map-merge(
     $utilities, (
+        // Make width responsive
         "width": (
             responsive: true,
             property: width,
